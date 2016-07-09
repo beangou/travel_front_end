@@ -40,7 +40,6 @@
 
           <div class="collapse navbar-collapse" id="js-navbar-collapse" ng-controller="MenuCtrl">
             <ul class="nav navbar-nav pull-right" ng-hide="isLoggedIn">
-              <li><a ng-href="/#/signup">Sign up!</a></li>
               <li><a ng-href="/#/login">Login</a></li>
             </ul>
             <div class="btn-group pull-right acc-button" ng-show="isLoggedIn">
@@ -50,24 +49,14 @@
                 <span class="sr-only">Toggle Dropdown</span>
               </button>
               <ul class="dropdown-menu" role="menu">
-                <li><a ng-href="/#/dashboard">Dashboard</a></li>
-                <li><a ng-href="/#/addpost">Add post</a></li>
-                <li><a ng-href="/#/addcourse">Add course</a></li>
+                <li><a ng-href="/#/dashboard">目录</a></li>
+                <li><a ng-href="/#/addcourse">增加课程</a></li>
                 <li class="divider"></li>
                 <li><a href="#" ng-click="logout()">Logout</a></li>
               </ul>
             </div>
           </div>
-
-          <div class="collapse navbar-collapse" id="js-navbar-collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#/">Home</a></li>
-              <li><a ng-href="#/signup">Signup</a></li>
-            </ul>
-          </div>
-
         </div>
-
 
       </div>
 
@@ -126,6 +115,8 @@
         <script src="scripts/controllers/addpost.js"></script>
         <script src="scripts/controllers/viewpost.js"></script>
         <script src="scripts/controllers/addcourse.js"></script>
+        <script src="scripts/controllers/viewcourse.js"></script>
+        <script src="scripts/controllers/viewcoursecontent.js"></script>
         <!-- endbuild -->
 </body>
 </html>

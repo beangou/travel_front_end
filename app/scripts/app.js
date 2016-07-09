@@ -48,6 +48,14 @@ angular
         templateUrl: 'views/addcourse.html',
         controller: 'AddcourseCtrl'
       })
+      .when('/viewcourse/:courseId', {
+        templateUrl: 'views/viewcourse.html',
+        controller: 'ViewcourseCtrl'
+      })
+      .when('/viewcoursecontent/:courseId', {
+        templateUrl: 'views/viewcoursecontent.html',
+        controller: 'ViewcoursecontentCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });

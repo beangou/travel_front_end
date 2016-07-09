@@ -10,8 +10,8 @@
 angular.module('clientApp')
   .controller('DashboardCtrl', function ($scope, $log, $http, alertService, $location) {
 
-    $scope.loadPosts = function() {
-      $http.get('/app/userposts')
+    $scope.loadBooks = function() {
+      $http.get('/app/v1/courses')
         .error(function(data, status) {
           if(status === 401) {
             $location.path('/login');
@@ -20,10 +20,9 @@ angular.module('clientApp')
           }
         })
         .success(function(data) {
-          $scope.posts = data;
+          $scope.books = data;
         });
     };
 
-    $scope.loadPosts();
+    $scope.loadBooks();
   });
-
