@@ -46,7 +46,7 @@ angular
       })
       .when('/addcourse', {
         templateUrl: 'views/addcourse.html',
-        controller: 'AddpostCtrl'
+        controller: 'AddcourseCtrl'
       })
       .otherwise({
         redirectTo: '/'
