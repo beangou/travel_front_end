@@ -12,9 +12,11 @@ angular.module('clientApp')
 
     $scope.params = $routeParams;
     $scope.courseId = $scope.params.courseId;
-
+    
     $scope.viewContent = function() {
-      $http.get('/app/v1/course?id=' + $scope.courseId)
+      var postObject = new Object();
+      postObject.courseId = $scope.courseId;
+      $http.post('/app/v1/course', postObject)
         .error(function(data) {
           alertService.add('danger', data.error.message);
         })

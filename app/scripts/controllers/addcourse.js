@@ -26,7 +26,11 @@ angular.module('clientApp')
     });
 
     $scope.loadCourses = function(type, parentId) {
-      $http.get('/app/v1/courses?parentId='+parentId)
+      $('#select_'+type).html("");
+      $('#select_'+type).text("");
+      var postObject = new Object();
+      postObject.parentId = parentId;
+      $http.post('/app/v1/courses', postObject)
         .error(function(data, status) {
           if(status === 401) {
             $location.path('/login');
@@ -55,7 +59,10 @@ angular.module('clientApp')
     };
 
     $scope.loadContent = function(id) {
-      $http.get('/app/v1/course?id='+id)
+
+      var postObject = new Object();
+      postObject.courseId = id;
+      $http.post('/app/v1/course', postObject)
         .error(function(data, status) {
           if(status === 401) {
             $location.path('/login');
@@ -158,7 +165,7 @@ angular.module('clientApp')
         parentId: parentId
       };
 
-      $http.post('app/v1/course', payload)
+      $http.post('app/v1/addcourse', payload)
         .error(function(data, status) {
           if(status === 400) {
             angular.forEach(data, function(value, key) {

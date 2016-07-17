@@ -14,7 +14,9 @@ angular.module('clientApp')
     $scope.courseId = $scope.params.courseId;
 
     $scope.viewCourses = function() {
-      $http.get('/app/v1/courses?parentId=' + $scope.courseId)
+    var postObject = new Object();
+    postObject.parentId = $scope.courseId;
+    $http.post('/app/v1/courses', postObject)
         .error(function(data) {
           alertService.add('danger', data.error.message);
         })

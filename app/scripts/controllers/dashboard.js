@@ -11,7 +11,9 @@ angular.module('clientApp')
   .controller('DashboardCtrl', function ($scope, $log, $http, alertService, $location) {
 
     $scope.loadBooks = function() {
-      $http.get('/app/v1/courses')
+      var postObject = new Object();
+      postObject.parentId = 0;
+      $http.post('/app/v1/courses', postObject)
         .error(function(data, status) {
           if(status === 401) {
             $location.path('/login');
