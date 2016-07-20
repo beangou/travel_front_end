@@ -61,7 +61,7 @@ angular.module('clientApp')
     $scope.loadContent = function(id) {
 
       var postObject = new Object();
-      postObject.courseId = id;
+      postObject.id = id;
       $http.post('/app/v1/course', postObject)
         .error(function(data, status) {
           if(status === 401) {
