@@ -21,7 +21,11 @@ angular.module('clientApp')
           $('#select_'+j).text("");
         }
         $('#content').val("");
-        $scope.loadCourses(nextType, id);
+        if(nextType == 5) {
+          $scope.loadContent(id);
+        }else {
+          $scope.loadCourses(nextType, id);
+        }
       }
     });
 
