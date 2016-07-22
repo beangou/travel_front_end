@@ -1,0 +1,25 @@
+<form name="postForm" ng-submit="addQuestion()" novalidate>
+  <div>
+    <label>题目:</label>
+    <input name="title" class="form-control" type="subject" id="title" placeholder="题目">
+  </div>
+  <div style="margin-top:3%">
+    <label>选项:</label>
+    <input name="option" class="form-control option" type="text" id="optionA" value="A.">
+    <input name="option" class="form-control option" type="text" id="optionB" value="B.">
+    <input name="option" class="form-control option" type="text" id="optionC" value="C.">
+    <input name="option" class="form-control option" type="text" id="optionD" value="D.">
+  </div>
+  <div style="margin-top:3%">
+    <label>答案:&nbsp;&nbsp;</label>
+    <input type="checkbox" name="answer" class="answer" value="A"/> A &nbsp;&nbsp;<input name="answer" type="checkbox" class="answer" value="B"/> B &nbsp;&nbsp;
+    <input type="checkbox" name="answer" class="answer" value="C"/> C &nbsp;&nbsp;<input name="answer" type="checkbox" class="answer" value="D"/> D
+  </div>
+  <div style="margin-top:3%">
+    <label>答案解析:</label>
+    <textarea name="analysis" class="form-control" type="subject" id="analysis" placeholder="答案解析"></textarea>
+  </div>
+  <div style="margin-top:3%">
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+</form>

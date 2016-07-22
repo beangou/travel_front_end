@@ -55,6 +55,9 @@ angular
       .when('/viewcoursecontent/:courseId', {
         templateUrl: 'views/viewcoursecontent.html',
         controller: 'ViewcoursecontentCtrl'
+      }).when('/addquestion', {
+        templateUrl: 'views/addquestion.html',
+        controller: 'AddquestionCtrl'
       })
       .otherwise({
         redirectTo: '/'
