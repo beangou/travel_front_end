@@ -32,6 +32,10 @@ angular
         templateUrl: 'views/dashboard.html',
         controller: 'DashboardCtrl'
       })
+      .when('/questions', {
+        templateUrl: 'views/viewquestions.html',
+        controller: 'ViewquestionsCtrl'
+      })
       .when('/addpost', {
         templateUrl: 'views/addpost.html',
         controller: 'AddpostCtrl'
