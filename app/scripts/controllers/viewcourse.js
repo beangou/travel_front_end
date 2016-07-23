@@ -21,7 +21,7 @@ angular.module('clientApp')
           alertService.add('danger', data.error.message);
         })
         .success(function(data) {
-          $scope.courses = data;
+          $scope.courses = data.data;
         });
     };
 

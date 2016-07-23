@@ -22,7 +22,7 @@ angular.module('clientApp')
           }
         })
         .success(function(data) {
-          $scope.books = data;
+          $scope.books = data.data;
         });
     };
 

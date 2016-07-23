@@ -1,0 +1,8 @@
+<h4>题目一览</h4>
+<div ng-hide="courses.length">没有题目了. <a ng-href="/#/addquestion">去增加题目</a></div>
+<div class="panel panel-default" ng-repeat="course in courses">
+  <div class="panel-body">
+    <a ng-href="/#/viewcourse{{ course.type == 4 ? 'content' : ''}}/{{ course.id }}">{{ course.title }}</a>
+    <span class="badge"></span>
+  </div>
+</div>

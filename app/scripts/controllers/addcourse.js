@@ -43,7 +43,7 @@ angular.module('clientApp')
           }
         })
         .success(function(data) {
-          $.each(data, function (i, item) {
+          $.each(data.data, function (i, item) {
             if(i == 0) {
               // 获取下个下拉框的内容
               if(type < 4) {
@@ -75,8 +75,8 @@ angular.module('clientApp')
           }
         })
         .success(function(data) {
-          if(data) {
-            $('#content').val(data.content);
+          if(data.data) {
+            $('#content').val(data.data.content);
           }else {
             $('#content').val("");
           }
