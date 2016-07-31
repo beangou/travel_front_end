@@ -16,7 +16,8 @@ angular
     'ngRoute',
     'ngSanitize',
     'ngTouch',
-    'ui.bootstrap'
+    'ui.bootstrap',
+    'froala'
   ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -66,4 +67,8 @@ angular
       .otherwise({
         redirectTo: '/'
       });
-  });
+  }).value('froalaConfig', {
+      toolbarInline: false,
+      placeholderText: 'Enter Text Here'
+});
+;
