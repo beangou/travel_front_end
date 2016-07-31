@@ -9,29 +9,59 @@
  */
 angular.module('clientApp')
   .controller('AddquestionCtrl', function ($scope, $http, alertService, $location) {
+    var quetionType = 1;
+
+    $scope.selectType = function(type) {
+      quetionType = type;
+    }
 
     $scope.addQuestion = function() {
 
       var optionArr=new Array();
       var answerArr=new Array();
+      var analysis = "";
+      var title = "";
 
-      $('.option').each(function(){
-        optionArr.push($(this).val());//向数组中添加元素
-      });
-      $('input[name="answer"]:checked').each(function(){
-        answerArr.push($(this).val());//向数组中添加元素
-      });
+      if(quetionType == 1) {
+        $('.single_option').each(function(){
+          optionArr.push($(this).val());//向数组中添加元素
+        });
+        $('input[name="single_answer"]:checked').each(function(){
+          answerArr.push($(this).val());//向数组中添加元素
+        });
 
-      if(optionArr.length == 0 || answerArr.length == 0 || !$('#title').val() || !$('#analysis').val()) {
-        alertService.add('success', "参数没哟填全,请核实!");
-        return;
+        if(optionArr.length == 0 || answerArr.length != 1 || !$('#single_title').val() || !$('#single_analysis').val()) {
+          alertService.add('success', "参数没哟填全或者答案不止一个,请核实!");
+          return;
+        }
+        title = $('#single_title').val();
+        analysis = $('#single_analysis').val();
+      }else if(quetionType == 2) {
+        $('.multiple_option').each(function(){
+          optionArr.push($(this).val());//向数组中添加元素
+        });
+        $('input[name="multiple_answer"]:checked').each(function(){
+          answerArr.push($(this).val());//向数组中添加元素
+        });
+
+        if(optionArr.length == 0 || answerArr.length < 2 || !$('#multiple_title').val() || !$('#multiple_analysis').val()) {
+          alertService.add('success', "参数没哟填全或者答案少于两个,请核实!");
+          return;
+        }
+        title = $('#multiple_title').val();
+        analysis = $('#multiple_analysis').val();
+      }else {
+        title = $('#judgment_title').val();
+        answerArr = $('input[name="judgment_answer"]:checked').val();
+        analysis = $('#judgment_analysis').val();
       }
 
       var payload = {
-        title :   $('#title').val(),
+        title :   title,
         options:  optionArr,
         answers:  answerArr,
-        analysis: $('#analysis').val()
+        analysis: analysis,
+        type: quetionType
       };
 
       $http.post('/app/v1/addquestion', payload)
@@ -53,13 +83,26 @@ angular.module('clientApp')
           }
         })
         .success(function(data) {
-          $('#title').val("");
-          $('#optionA').val("A.");
-          $('#optionB').val("B.");
-          $('#optionC').val("C.");
-          $('#optionD').val("D.");
           $('.answer').attr("checked", false);
-          $('#analysis').val("");
+          if(quetionType == 1) {
+            $('#single_title').val("");
+            $('#single_optionA').val("A.");
+            $('#single_optionB').val("B.");
+            $('#single_optionC').val("C.");
+            $('#single_optionD').val("D.");
+            $('#single_analysis').val("");
+          }else if(quetionType == 2) {
+            $('#multiple_title').val("");
+            $('#multiple_optionA').val("A.");
+            $('#multiple_optionB').val("B.");
+            $('#multiple_optionC').val("C.");
+            $('#multiple_optionD').val("D.");
+            $('#multiple_analysis').val("");
+          }else {
+            $('#judgment_title').val("");
+            $('#judgment_analysis').val("");
+          }
+
           alertService.add('success', data.success.message);
         });
     };

@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0355baba-ec9e-45d6-b9a9-b9fbe71951cb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/addcourse.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/addcourse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/viewcoursecontent.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/viewcoursecontent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/viewcoursecontent.html" afterPath="$PROJECT_DIR$/app/views/viewcoursecontent.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/addquestion.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/addquestion.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/addquestion.html" afterPath="$PROJECT_DIR$/app/views/addquestion.html" />
     </list>
     <ignored path="client.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addcourse.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="addcourse.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/addcourse.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+            <state relative-caret-position="285">
+              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -87,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addquestion.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="addquestion.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/addquestion.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+            <state relative-caret-position="577">
+              <caret line="105" column="42" selection-start-line="105" selection-start-column="42" selection-end-line="105" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -110,8 +109,8 @@
       <file leaf-file-name="addquestion.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/addquestion.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="268">
+              <caret line="49" column="77" selection-start-line="49" selection-start-column="68" selection-end-line="49" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -152,14 +151,14 @@
         <option value="$PROJECT_DIR$/node_modules/grunt-google-cdn/node_modules/bower/lib/node_modules/qs/bower.json" />
         <option value="$PROJECT_DIR$/node_modules/grunt-google-cdn/node_modules/google-cdn/node_modules/bower/lib/commands/init.js" />
         <option value="$PROJECT_DIR$/node_modules/grunt-svgmin/node_modules/svgo/node_modules/js-yaml/bower.json" />
-        <option value="$PROJECT_DIR$/app/scripts/controllers/addquestion.js" />
         <option value="$PROJECT_DIR$/app/scripts/app.js" />
-        <option value="$PROJECT_DIR$/app/views/addquestion.html" />
         <option value="$PROJECT_DIR$/app/views/addcourse.html" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/views/viewcoursecontent.html" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/viewcoursecontent.js" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/addcourse.js" />
+        <option value="$PROJECT_DIR$/app/views/addquestion.html" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/addquestion.js" />
       </list>
     </option>
   </component>
@@ -840,12 +839,12 @@
       <workItem from="1469451917105" duration="396000" />
       <workItem from="1469720436207" duration="167000" />
       <workItem from="1469796638077" duration="5833000" />
-      <workItem from="1469929945226" duration="4924000" />
+      <workItem from="1469929945226" duration="11993000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81716000" />
+    <option name="totallyTimeSpent" value="88785000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1164,14 +1163,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/addquestion.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="975">
@@ -1203,14 +1194,6 @@
           <folding>
             <element signature="n#!!doc" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/addquestion.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1256,8 +1239,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/addcourse.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+        <state relative-caret-position="285">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/addquestion.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="49" column="77" selection-start-line="49" selection-start-column="68" selection-end-line="49" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/addquestion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="105" column="42" selection-start-line="105" selection-start-column="42" selection-end-line="105" selection-end-column="42" />
           <folding />
         </state>
       </provider>
