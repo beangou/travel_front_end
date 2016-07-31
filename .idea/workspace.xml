@@ -2,116 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0355baba-ec9e-45d6-b9a9-b9fbe71951cb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/angular-froala.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/froala_editor.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/froala_editor.pkgd.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/languages/ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/languages/bs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/languages/cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/languages/da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/languages/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/languages/en_ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/languages/en_gb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/languages/es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/languages/et.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/languages/fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/languages/fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/languages/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/languages/he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/languages/hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/languages/hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/languages/id.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/languages/it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/languages/ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/languages/ko.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/languages/me.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/languages/nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/languages/nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/languages/pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/languages/pt_br.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/languages/pt_pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/languages/ro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/languages/ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/languages/sr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/languages/sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/languages/th.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/languages/tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/languages/ua.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/languages/zh_cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/languages/zh_tw.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/plugins/align.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/plugins/char_counter.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/plugins/code_beautifier.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/plugins/code_view.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/plugins/colors.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/plugins/draggable.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/plugins/emoticons.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/plugins/entities.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/plugins/file.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/plugins/font_family.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/plugins/font_size.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/plugins/forms.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/plugins/fullscreen.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/plugins/image.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/plugins/image_manager.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/plugins/inline_style.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/plugins/line_breaker.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/plugins/link.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/plugins/lists.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/plugins/paragraph_format.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/plugins/paragraph_style.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/plugins/quick_insert.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/plugins/quote.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/plugins/save.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/plugins/table.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/plugins/url.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/js/plugins/video.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/froala_editor.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/froala_editor.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/froala_editor.pkgd.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/froala_editor.pkgd.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/froala_style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/froala_style.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/plugins/char_counter.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/plugins/char_counter.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/plugins/code_view.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/plugins/code_view.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/plugins/colors.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/plugins/colors.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/plugins/draggable.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/plugins/draggable.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/plugins/emoticons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/plugins/emoticons.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/plugins/file.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/plugins/file.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/plugins/fullscreen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/plugins/fullscreen.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/plugins/image.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/plugins/image.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/plugins/image_manager.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/plugins/image_manager.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/plugins/line_breaker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/plugins/line_breaker.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/plugins/quick_insert.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/plugins/quick_insert.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/plugins/table.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/plugins/table.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/plugins/video.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/plugins/video.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/themes/dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/themes/dark.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/themes/gray.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/themes/gray.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/themes/red.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/themes/red.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/themes/royal.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/themes/royal.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/app.js" afterPath="$PROJECT_DIR$/app/scripts/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/addcourse.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/addcourse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/addcourse.html" afterPath="$PROJECT_DIR$/app/views/addcourse.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/addquestion.html" afterPath="$PROJECT_DIR$/app/views/addquestion.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/viewcoursecontent.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/viewcoursecontent.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/viewcoursecontent.html" afterPath="$PROJECT_DIR$/app/views/viewcoursecontent.html" />
     </list>
     <ignored path="client.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -144,21 +37,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addcourse.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="addcourse.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/addcourse.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="118" column="11" selection-start-line="118" selection-start-column="11" selection-end-line="118" selection-end-column="11" />
+            <state relative-caret-position="345">
+              <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="viewcoursecontent.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/viewcoursecontent.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="viewcoursecontent.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/viewcoursecontent.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="95" column="4" selection-start-line="95" selection-start-column="4" selection-end-line="95" selection-end-column="54" />
+            <state relative-caret-position="418">
+              <caret line="93" column="10" selection-start-line="93" selection-start-column="10" selection-end-line="93" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -179,26 +92,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
               <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dashboard.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/dashboard.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/services/user.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -227,8 +120,8 @@
       <file leaf-file-name="addcourse.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/addcourse.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+            <state relative-caret-position="343">
+              <caret line="35" column="71" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -252,9 +145,7 @@
         <option value="$PROJECT_DIR$/app/scripts/controllers/viewcontent.js" />
         <option value="$PROJECT_DIR$/app/views/dashboard.html" />
         <option value="$PROJECT_DIR$/app/views/viewcourse.html" />
-        <option value="$PROJECT_DIR$/app/views/viewcoursecontent.html" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/viewcourse.js" />
-        <option value="$PROJECT_DIR$/app/scripts/controllers/viewcoursecontent.js" />
         <option value="$PROJECT_DIR$/app/views/viewquestions.html" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/viewquestions.js" />
         <option value="$PROJECT_DIR$/node_modules/karma/node_modules/connect/node_modules/debug/bower.json" />
@@ -265,8 +156,10 @@
         <option value="$PROJECT_DIR$/app/scripts/app.js" />
         <option value="$PROJECT_DIR$/app/views/addquestion.html" />
         <option value="$PROJECT_DIR$/app/views/addcourse.html" />
-        <option value="$PROJECT_DIR$/app/scripts/controllers/addcourse.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/views/viewcoursecontent.html" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/viewcoursecontent.js" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/addcourse.js" />
       </list>
     </option>
   </component>
@@ -363,6 +256,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="styles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -382,6 +293,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -907,12 +840,12 @@
       <workItem from="1469451917105" duration="396000" />
       <workItem from="1469720436207" duration="167000" />
       <workItem from="1469796638077" duration="5833000" />
-      <workItem from="1469929945226" duration="2284000" />
+      <workItem from="1469929945226" duration="4924000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79076000" />
+    <option name="totallyTimeSpent" value="81716000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1036,13 +969,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/viewcoursecontent.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1096,13 +1022,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/viewcoursecontent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -1265,6 +1184,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1302,26 +1222,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="93" column="10" selection-start-line="93" selection-start-column="10" selection-end-line="93" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/addcourse.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+        <state relative-caret-position="343">
+          <caret line="35" column="71" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/viewcoursecontent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/viewcoursecontent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/addcourse.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="118" column="11" selection-start-line="118" selection-start-column="11" selection-end-line="118" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="95" column="4" selection-start-line="95" selection-start-column="4" selection-end-line="95" selection-end-column="54" />
+        <state relative-caret-position="345">
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
           <folding />
         </state>
       </provider>

@@ -20,8 +20,10 @@ angular.module('clientApp')
           $('#select_'+j).html("");
           $('#select_'+j).text("");
         }
-        $('#content').html("");
 
+        $('#content').froalaEditor('destroy');
+        $('#content').html("");
+        $('#content').val("");
         $('#content').froalaEditor({
           heightMin: 300,
           heightMax: 200
@@ -134,9 +136,7 @@ angular.module('clientApp')
         $('#button_content_cancel').show();
       }else {
         // 调用保存方法, 找出参数
-        // var content = $('#content').val();
         var content = $('#content').froalaEditor('html.get');
-        alert("content="+content);
         var id = $('#select_4').val();
         if(content) {
           $scope.update(id, content);

@@ -22,6 +22,7 @@ angular.module('clientApp')
         })
         .success(function(data) {
           $scope.course = data.data;
+          $('#content').html(data.data.content);
         });
     };
 
