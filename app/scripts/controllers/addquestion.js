@@ -11,6 +11,37 @@ angular.module('clientApp')
   .controller('AddquestionCtrl', function ($scope, $http, alertService, $location) {
     var quetionType = 1;
 
+    $('.selectpicker').on('change', function(){
+      // 根据type和parentId查询下个下拉框的值
+      var id = $(this).find("option:selected").val();
+      if(id) {
+        $('#select_chapter').html("");
+        $('#select_chapter').text("");
+        $scope.loadCourses(id);
+      }
+    });
+
+    $scope.loadCourses = function(id) {
+      var postObject = new Object();
+      postObject.parentId = id;
+      $http.post('/app/v1/courses', postObject)
+        .error(function(data, status) {
+          if(status === 401) {
+            $location.path('/login');
+          } else {
+            alertService.add('danger', data.error.message);
+          }
+        })
+        .success(function(data) {
+          $.each(data.data, function (i, item) {
+            $('#select_chapter').append($('<option>', {
+              value: item.id,
+              text : item.title
+            }));
+          });
+        });
+    }
+
     $scope.selectType = function(type) {
       quetionType = type;
     }
@@ -21,6 +52,13 @@ angular.module('clientApp')
       var answerArr=new Array();
       var analysis = "";
       var title = "";
+
+      var courseId = $("#select_chapter").find("option:selected").val();
+
+      if(!courseId) {
+        alertService.add('success', "请选择章节!");
+        return;
+      }
 
       if(quetionType == 1) {
         $('.single_option').each(function(){
@@ -61,7 +99,8 @@ angular.module('clientApp')
         options:  optionArr,
         answers:  answerArr,
         analysis: analysis,
-        type: quetionType
+        type: quetionType,
+        courseId: courseId
       };
 
       $http.post('/app/v1/addquestion', payload)
@@ -106,4 +145,6 @@ angular.module('clientApp')
           alertService.add('success', data.success.message);
         });
     };
+
+    $scope.loadCourses(1);
   });

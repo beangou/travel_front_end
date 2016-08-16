@@ -1,5 +1,17 @@
 
 <form name="postForm" ng-submit="addQuestion()" novalidate class="tab-form-demo">
+
+  请选择题目所属章:
+  <select id="select_book" class="form-control selectpicker">
+    <option value="1">《全国导游基础知识》</option>
+    <option value="2">《政策法律与法规》</option>
+    <option value="3">《导游业务》</option>
+    <option value="4">《景点介绍》</option>
+  </select>
+  <select id="select_chapter" class="form-control">
+  </select>
+
+  <br>
   <uib-tabset active="activeForm">
     <uib-tab index="0" heading="单选题" select="selectType(1)" class="singleType">
       <div>
