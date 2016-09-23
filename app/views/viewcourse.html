@@ -3,6 +3,8 @@
 <div class="panel panel-default" ng-repeat="course in courses">
   <div class="panel-body">
     <a ng-href="/#/viewcourse{{ course.type == 4 ? 'content' : ''}}/{{ course.id }}">{{ course.title }}</a>
+    <md-button class="md-primary md-raised" ng-click="showPrompt($event, this)"  >编辑</md-button>
+    <input type="button" class="btn btn-primary" ng-click="delete(this)" value="删除">
     <span class="badge"></span>
   </div>
 </div>

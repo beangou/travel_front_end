@@ -11,6 +11,7 @@
 angular
   .module('clientApp', [
     'ngAnimate',
+    'ngMaterial',
     'ngCookies',
     'ngResource',
     'ngRoute',
@@ -63,6 +64,11 @@ angular
       }).when('/addquestion', {
         templateUrl: 'views/addquestion.html',
         controller: 'AddquestionCtrl'
+      })
+      .when('/about', {
+        templateUrl: 'views/about.html',
+        controller: 'AboutCtrl',
+        controllerAs: 'about'
       })
       .otherwise({
         redirectTo: '/'

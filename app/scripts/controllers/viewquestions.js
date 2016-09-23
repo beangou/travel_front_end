@@ -8,7 +8,7 @@
  * Controller of the clientApp
  */
 angular.module('clientApp')
-  .controller('ViewquestionsCtrl', function ($scope, $http, $routeParams, alertService, $route) {
+  .controller('ViewquestionsCtrl', function ($scope, $http, $routeParams, alertService) {
 
     $scope.viewQuestions = function() {
       var postObject = new Object();
