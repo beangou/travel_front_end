@@ -18,10 +18,7 @@ angular.module('clientApp')
     $scope.showPrompt = function(ev, ele) {
       // Appending dialog to document.body to cover sidenav in docs app
       var confirm = $mdDialog.prompt()
-        .title('What would you name your dog?')
-        .textContent('Bowser is a common name.')
-        .placeholder('Dog name')
-        .ariaLabel('Dog name')
+        .title('编辑标题')
         .initialValue(ele.course.title)
         .targetEvent(ev)
         .ok('确定')
